@@ -259,6 +259,7 @@ export default class Magnifier extends PureComponent<Props, State> {
 							backgroundSize: `${zoomFactor * this.imgBounds.width}% ${zoomFactor *
 								this.imgBounds.height}%`,
 							borderWidth: mgBorderWidth,
+							borderColor: "#F23900"
 						}}
 					/>
 				)}
